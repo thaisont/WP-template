@@ -10,6 +10,13 @@ module.exports = {
         primary: "#AC1D03",
         secondary: "#333333",
       },
+      backgroundColor: {
+        primary: "#AC1D03",
+        secondary: "#333333",
+      },
+      maxWidth: {
+        maxBase: "200px",
+      },
     },
   },
   variants: {
