@@ -32,11 +32,38 @@
                         <li>Contact us</li>
                     </a>
                 </ul>
-                <div class="burger md:hidden cursor-pointer ">
-                    <i class=" fill-current text-primary px-4 fas fa-bars fa-lg"></i>
-                </div>
 
                 <!--Burger menu-->
+
+
+                <button class="burger md:hidden cursor-pointer ">
+                    <i class=" fill-current text-primary px-4 fas fa-bars fa-lg"></i>
+                </button>
+
+                <div class="cross cursor-pointer hidden relative -top-4">
+                    <a href=""><i class=" fill-current text-primary px-4 fas fa-times fa-lg"></i>
+                    </a>
+                </div>
+
+                <!--Mobile menu-->
+
+                <div class="mobileMenu absolute top-16 right-0 w-full  bg-white shadow">
+                    <ul class="gap-x-6 px-4 text-secondary md:hidden ">
+                        <a href="">
+                            <li class="py-4 text-sm">Home</li>
+                        </a>
+                        <a href="">
+                            <li class="py-4 text-sm">About us</li>
+                        </a>
+                        <a href="">
+                            <li class="py-4 text-sm">SEO Service</li>
+                        </a>
+                        <a href="">
+                            <li class="py-4 text-sm">Contact us</li>
+                        </a>
+                    </ul>
+                </div>
+
 
 
 
@@ -276,6 +303,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./app.js"></script>
 
 </body>
 
