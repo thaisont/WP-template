@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/1cc25acea6.js" crossorigin="anonymous"></script>
-
+    <link rel="shortcut icon" href="./images/Favicon-logo.png" type="image/x-icon">
     <title>GSEDigital</title>
 </head>
 
-<body class="font-roboto  ">
+<body class="font-roboto">
     <header class="container mx-auto max-w-screen-lg  ">
         <nav class="flex py-4 items-center  ">
             <a class="mr-auto" href="/">
@@ -87,7 +87,7 @@
         </section>
         <section>
             <div class="bg-primary">
-                <div class="mx-auto max-w-screen-lg py-8 flex grid grid-cols-3">
+                <div class="mx-auto max-w-screen-lg py-8 lg:flex lg:grid grid-cols-3">
                     <div class="col-span-2">
                         <h2 class="text-5xl font-bold text-white py-4">
                             Search Engine Optimisation
@@ -105,17 +105,18 @@
                             position you higher
                             in search results.</p>
                     </div>
-                    <img class="relative top-12" src="./images/macbook.png" alt="macbook and iphone">
+                    <img class="m-auto relative top-12" src="./images/macbook.png" alt="macbook and iphone">
                 </div>
             </div>
         </section>
         <section>
-            <div class="mx-auto max-w-screen-lg my-12 flex grid grid-cols-12 gap-4">
-                <div class="col-span-6">
-                    <img class="col-span-6" src="./images/Fist-bump.png" alt="bumping fist">
+            <div class="mx-auto max-w-screen-lg lg:my-12 flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-4">
+                <div class="lg:col-span-6">
+                    <img class=" px-12 lg:px-0 lg:col-span-6 p-4 lg:p-0" src="./images/Fist-bump.png"
+                        alt="bumping fist">
                 </div>
-                <div class="col-span-6">
-                    <h2 class="text-5xl font-bold text-primary pt-16 pb-4">Why GSEDigital?</h2>
+                <div class="lg:col-span-6 px-16 lg:px-0">
+                    <h2 class=" text-3xl lg:text-5xl font-extrabold text-primary pt-16 pb-4">Why GSEDigital?</h2>
                     <p class="text-secondary py-2 text-lg">As a trusted digital partner, you can rely on us to drive
                         your
                         business
@@ -127,12 +128,13 @@
                         our
                         on-going success.
                         We use strategies tailored to your online objectives.</p>
-                    <ul class="text-secondary list-disc py-4 pl-4">
+                    <ul class="text-secondary list-disc py-2 pl-4">
                         <li>Low cost SEO packages</li>
                         <li>No long term contracts</li>
                         <li>Real, proven, results</li>
                     </ul>
-                    <button class=" rounded-full bg-primary text-white border py-2 px-16 text-lg font-bold">
+                    <button
+                        class=" rounded-full bg-primary text-white border py-2 px-16 lg:text-lg font-bold my-4 transition duration-500 ease-in-out transform hover:scale-110 hover:bg-red-600  ">
                         About us
                     </button>
                 </div>
@@ -140,93 +142,125 @@
             </div>
         </section>
         <section>
-            <h2>Pricing</h2>
-            <p>SEO packages to suit all businesses.</p>
-            <p>GSEDigital are committed to transparency from start to finish. Our prices are extremely competitive, with
-                no hidden
-                extras.</p>
-            <div class="price-container">
-                <div class="price-box">
+            <div class="mx-auto max-w-screen-lg">
+                <div class="lg:grid lg:flex lg:grid-cols-3">
+                    <div class="lg:col-span-2 px-16 lg:px-0">
+                        <h2 class=" text-4xl lg:text-5xl font-extrabold text-primary py-4">Pricing</h2>
+                        <p class="text-secondary py-2 text-lg">SEO packages to suit all businesses.</p>
+                        <p class=" text-secondary py-2">GSEDigital are committed to transparency from start to
+                            finish.
+                            Our
+                            prices
+                            are
+                            extremely competitive,
+                            with
+                            no hidden
+                            extras.</p>
+                    </div>
+                </div>
 
-                    <h3>Starter</h3>
-                    <p>99</p>
-                    <ul>
-                        <li>Free Setup</li>
-                        <li>Free Audits</li>
-                        <li>Local / National SEO</li>
-                        <li>3 Keywords / Phrases</li>
-                        <li>Keyword Analysis</li>
-                        <li>Link Building</li>
-                        <li>Content Optimisation</li>
-                    </ul>
-                    <div class="cta">
-                        Select plan
-                        <img src="" alt="">
+                <div class="lg:grid lg:flex lg:grid-cols-3 lg:my-8 lg:gap-8  ">
+                    <div class="shadow-md py-8 text-center border rounded-lg mx-16 my-8 lg:mx-0 lg:my-0 ">
+                        <div class="price-box">
+                            <h3 class="text-4xl font-bold text-primary py-4">Starter</h3>
+                            <p class="font-semibold text-secondary text-5xl py-2">£99</p>
+                            <ul class="text-secondary no-underline list-none py-4">
+                                <li class="mb-2">Free Setup</li>
+                                <li class="mb-2">Free Audits</li>
+                                <li class="mb-2">Local / National SEO</li>
+                                <li class="mb-2">3 Keywords / Phrases</li>
+                                <li class="mb-2">Keyword Analysis</li>
+                                <li class="mb-2">Link Building</li>
+                                <li>Content Optimisation</li>
+                            </ul>
+                            <button
+                                class=" transition duration-500 ease-in-out transform hover:scale-110 rounded-full bg-primary text-white border px-8 py-2 text-sm hover:bg-red-600 ">
+                                Select plan
+                                <i class="fas fa-arrow-right pl-1"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="shadow-md py-8 text-center border rounded-lg mx-16 my-8 lg:mx-0 lg:my-0 ">
+                        <div class="price-box">
+                            <h3 class="text-4xl font-bold text-primary py-4">Intermediate</h3>
+                            <p class="font-semibold text-secondary text-5xl py-2">£149</p>
+                            <ul class="text-secondary no-underline list-none py-4">
+                                <li class="mb-2">Free Setup</li>
+                                <li class="mb-2">Free Audits</li>
+                                <li class="mb-2">Local / National SEO</li>
+                                <li class="mb-2">5 Keywords / Phrases</li>
+                                <li class="mb-2">Keyword Analysis</li>
+                                <li class="mb-2">Link Building</li>
+                                <li>Content Optimisation</li>
+                            </ul>
+                            <button
+                                class=" transition duration-500 ease-in-out transform hover:scale-110  rounded-full bg-primary text-white border px-8 py-2 text-sm hover:bg-red-600">
+                                Select plan
+                                <i class="fas fa-arrow-right pl-1"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="shadow-md py-8 text-center border rounded-lg mx-16 my-8 lg:mx-0 lg:my-0 ">
+                        <div class="price-box">
+
+                            <h3 class="text-4xl font-bold text-primary py-4">Advanced</h3>
+                            <p class="font-semibold text-secondary text-5xl py-2">£199</p>
+                            <ul class="text-secondary no-underline list-none py-4">
+                                <li class="mb-2">Free Setup</li>
+                                <li class="mb-2">Free Audits</li>
+                                <li class="mb-2">Local / National SEO</li>
+                                <li class="mb-2">10 Keywords / Phrases</li>
+                                <li class="mb-2">Keyword Analysis</li>
+                                <li class="mb-2">Link Building</li>
+                                <li>Content Optimisation</li>
+                            </ul>
+                            <button
+                                class="transition duration-500 ease-in-out transform hover:scale-110  rounded-full bg-primary text-white border px-8 py-2 text-sm hover:bg-red-600">
+                                Select plan
+                                <i class="fas fa-arrow-right pl-1"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="price-container">
-                <div class="price-box">
-
-                    <h3>Starter</h3>
-                    <p>149</p>
-                    <ul>
-                        <li>Free Setup</li>
-                        <li>Free Audits</li>
-                        <li>Local / National SEO</li>
-                        <li>5 Keywords / Phrases</li>
-                        <li>Keyword Analysis</li>
-                        <li>Link Building</li>
-                        <li>Content Optimisation</li>
-                    </ul>
-                    <div class="cta">
-                        Select plan
-                        <img src="" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="price-container">
-                <div class="price-box">
-
-                    <h3>Starter</h3>
-                    <p>199</p>
-                    <ul>
-                        <li>Free Setup</li>
-                        <li>Free Audits</li>
-                        <li>Local / National SEO</li>
-                        <li>10 Keywords / Phrases</li>
-                        <li>Keyword Analysis</li>
-                        <li>Link Building</li>
-                        <li>Content Optimisation</li>
-                    </ul>
-                    <div class="cta">
-                        Select plan
-                        <img src="" alt="">
-                    </div>
-                </div>
-            </div>
-
         </section>
         <section>
-            <h2>
-                Improve quality traffic
-            </h2>
-            <p>Get in touch to take the first step.</p>
-            <div class="contact-button">
-                Contact us
+            <div class="bg-primary">
+                <div class="mx-auto  max-w-screen-lg py-12 text-center mt-12">
+                    <h2 class="text-4xl font-bold text-white py-2">
+                        Improve quality traffic
+                    </h2>
+                    <p class="text-white font-medium py-2">Get in touch to take the first step.</p>
+                    <button
+                        class=" rounded-full bg-white text-primary border py-1 px-12 text-lg font-bold my-4 transition duration-500 ease-in-out transform hover:scale-110   ">
+                        Contact us
+                    </button>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="copyright">
-            &#169 Copyright - GSEDigital 2021
-        </div>
-        <div class="footerLink">
-            <ul>
-                <li>About us</li>
-                <li>SEO service</li>
-                <li>Contact us</li>
-            </ul>
+        <div class="bg-secondary text-white ">
+            <div class="mx-auto  max-w-screen-lg py-4 flex flex-col flex-col-reverse px-4   lg:flex-row items-center">
+                <div class="text-xs lg:mr-auto">
+                    &#169 Copyright - GSEDigital 2021
+                </div>
+                <div class=" footerLink">
+                    <ul class="flex text-xs pb-4 lg:pb-0">
+                        <a class="hover:text-primary transition " href="">
+                            <li class="pr-2">About us </li>
+                        </a>
+                        <a class="hover:text-primary transition" href="">
+                            <li class="pr-2">SEO service </li>
+                        </a>
+                        <a class="hover:text-primary transition" href="">
+                            <li class="pr-2">Contact us</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 
