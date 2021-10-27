@@ -10,87 +10,165 @@
 </head>
 
 <body class="font-roboto">
-    <header class="container mx-auto max-w-screen-lg">
-        <nav class="flex py-4 items-center ">
-            <a class="mr-auto" href="/">
-                <img class="max-w-maxBase" src="./images/GSEDigital-logo.jpg" alt="GSEDigital logo">
-            </a>
+    <div class="border-b fixed inset-x-0 bg-white ">
+        <header class="container mx-auto max-w-screen-lg">
+            <nav class="flex py-4 items-center ">
+                <a class="mr-auto" href="/">
+                    <img class="max-w-maxBase" src="./images/GSEDigital-logo.jpg" alt="GSEDigital logo">
+                </a>
+                <div class="nav-list">
+                    <ul class="gap-x-6 px-4 text-secondary hidden md:flex">
+                        <a href="">
+                            <li class="hover:text-primary transition ">Home</li>
+                        </a>
+                        <a href="">
+                            <li class="hover:text-primary transition ">About us</li>
+                        </a>
+                        <a href="">
+                            <li class="hover:text-primary transition ">SEO Service</li>
+                        </a>
+                        <a href="">
+                            <li class="hover:text-primary transition ">Contact us</li>
+                        </a>
+                    </ul>
 
-            <div class="nav-list">
-                <ul class="gap-x-6 px-4 text-secondary hidden md:flex">
-                    <a href="">
-                        <li class="hover:text-primary transition ">Home</li>
-                    </a>
-                    <a href="">
-                        <li class="hover:text-primary transition ">About us</li>
-                    </a>
-                    <a href="">
-                        <li class="hover:text-primary transition ">SEO Service</li>
-                    </a>
-                    <a href="">
-                        <li class="hover:text-primary transition ">Contact us</li>
-                    </a>
-                </ul>
-
-                <!--Burger menu-->
+                    <!--Burger menu-->
 
 
-                <button class="burger md:hidden cursor-pointer" type="button" title="burger button">
-                    <i class=" fill-current text-primary px-4 fas fa-bars fa-lg"></i>
-                </button>
+                    <button class="burger md:hidden cursor-pointer" type="button" title="burger button">
+                        <i class=" fill-current text-primary px-4 fas fa-bars fa-lg"></i>
+                    </button>
 
-                <!-- <button class="cross cursor-pointer hidden relative ">
+                    <!-- <button class="cross cursor-pointer hidden relative ">
                     <a href=""><i class=" fill-current text-primary px-4 fas fa-times fa-lg"></i>
                     </a>
                 </button> -->
 
-                <!--Mobile menu-->
+                    <!--Mobile menu-->
 
-                <div class="mobileMenu hidden absolute top-16 right-0 w-full bg-white shadow my-5 transition">
-                    <ul class="gap-x-6 px-4 text-secondary md:hidden  ">
+                    <div class="mobileMenu hidden absolute top-16 right-0 w-full bg-white shadow my-5 transition">
+                        <ul class="gap-x-6 px-4 text-secondary md:hidden  ">
 
-                        <a href="">
-                            <li class="home py-4 pt-4 text-sm hover:text-primary transition ">Home</li>
-                        </a>
+                            <a href="">
+                                <li class="home py-4 pt-4 text-sm hover:text-primary transition ">Home</li>
+                            </a>
 
-                        <a href="">
-                            <li class="py-4 text-sm hover:text-primary transition ">About us</li>
-                        </a>
-                        <a href="">
-                            <li class="py-4 text-sm hover:text-primary transition ">SEO Service</li>
-                        </a>
-                        <a href="">
-                            <li class="py-4 text-sm hover:text-primary transition ">Contact us</li>
-                        </a>
-                    </ul>
+                            <a href="">
+                                <li class="py-4 text-sm hover:text-primary transition ">About us</li>
+                            </a>
+                            <a href="">
+                                <li class="py-4 text-sm hover:text-primary transition ">SEO Service</li>
+                            </a>
+                            <a href="">
+                                <li class="py-4 text-sm hover:text-primary transition ">Contact us</li>
+                            </a>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+    </div>
+    </nav>
     </header>
     <main>
         <section>
-            <div>
-                <h1>About us</h1>
-                <p>An experienced diverse team of SEO experts</p>
-                <p>As an established SEO agency in the UK, we’re a team of experts in all things SEO. At GSEDigital, we
-                    generate great
-                    results, add success to your business and efficiently ensure you receive the high-quality service
-                    throughout.</p>
-                <p>Do you want us to fix your SEO challenges? Drop us a message to learn more about how we can help.</p>
+            <div class="mx-auto max-w-screen-lg py-32 grid grid-cols-3 gap-4">
+                <div class="mx-16 lg:mx-0 lg:my-0 col-span-2 ">
+                    <h1 class="text-3xl font-bold text-secondary py-2">About us</h1>
+                    <p class="text-secondary text-lg py-2">An experienced diverse team of SEO experts</p>
+                    <p class="text-secondary py-4">As an established SEO agency in the UK, we’re a team of
+                        experts in all things SEO. At GSEDigital,
+                        we
+                        generate great
+                        results, add success to your business and efficiently ensure you receive the high-quality
+                        service
+                        throughout.</p>
+                    <p class="text-secondary">Do you want us to fix your SEO challenges? Drop us a message to
+                        learn more about how we can help.
+                    </p>
+                </div>
+                <div class="m-auto">
+                    <img class="rounded-full h-56 w-56 flex items-center justify-center" src="./images/team-image.jpeg"
+                        alt="Group of people in a meeting ">
+                </div>
             </div>
-            <img src="./images/team-image.jpeg" alt="Group of people in a meeting ">
+            </div>
+
         </section>
         <section>
-            <div>
-                <h2>Our approach</h2>
-                <p>The way we handle our work as an agency, we stand by the following core values.</p>
+            <div class="bg-secondary">
+                <div class="mx-auto max-w-screen-lg ">
+                    <div class="mx-16 lg:mx-0 lg:my-0 col-span-2  py-8">
+                        <div>
+                            <h2 class="text-white text-3xl font-bold pb-4">Our approach</h2>
+                            <p class="text-white text-lg pb-4">The way we handle our work as an agency, we stand by the
+                                following
+                                core values.</p>
+                        </div>
+                        <div class="accordion">
+                            <div class=" bg-white p-8 flex items-center cursor-pointer">
+                                <h3 class="text-secondary text-lg mr-auto ">Efficient</h3>
+                                <button id="plus " type="button" title="plusButton">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content bg-green-500 p-8 hidden">
+                            <p>We believe the quality of work should never be sacrificed. That is why we use our tested
+                                framework
+                                which
+                                offers a more
+                                efficient service.</p>
+                        </div>
 
+                        <h3 class="pt-4">Leading practices</h3>
+                        <p>Using industry leading practices, we ensure our clients receives the high-quality of service
+                            from
+                            start
+                            to finish.</p>
+                        <h3>Return on investment (ROI)</h3>
+                        <p>We believe teamwork makes the dream work. That is why we focus on your return on investment
+                            as
+                            priority
+                        </p>
+                        <h3>Reliance</h3>
+                        <p>We make decisions based on evidence and experience. Our client trust is important, and we
+                            take
+                            this
+                            responsibility
+                            really seriously.</p>
+                    </div>
+                </div>
             </div>
+        </section>
 
-
-
+        <section>
+            <div>
+                <h2>Our mission</h2>
+                <p>At GSEDigital, our aim is to place your digital presence at the forefront of search engine results.
+                </p>
+                <p>We want to maximise your return on investment and bring valuable, organic traffic to your business.
+                    In a climate of an
+                    competitive market and ever changing technology, it is paramount that we are in tune with the latest
+                    trends, in order to
+                    unlock your digital business potential.</p>
+                <img src="./images/lights.jpeg" alt="lightbulb">
+            </div>
+        </section>
+        <section>
+            <div class="bg-primary">
+                <div class="mx-auto  max-w-screen-lg py-12 text-center mt-12">
+                    <h2 class="text-4xl font-bold text-white py-2">
+                        Move ahead of the competition
+                    </h2>
+                    <p class="text-white font-medium py-2">Get in touch to take the first step.</p>
+                    <button
+                        class=" rounded-full bg-white text-primary border py-1 px-12 text-lg font-bold my-4 transition duration-500 ease-in-out transform hover:scale-110   ">
+                        Contact us
+                    </button>
+                </div>
+            </div>
         </section>
     </main>
+
     <footer>
         <div class="bg-secondary text-white ">
             <div class="mx-auto  max-w-screen-lg py-4 flex flex-col flex-col-reverse px-4   lg:flex-row items-center">
