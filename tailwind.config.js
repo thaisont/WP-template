@@ -17,6 +17,13 @@ module.exports = {
       maxWidth: {
         maxBase: "200px",
       },
+      minHeight: {
+        0: "0",
+
+        half: "50%",
+
+        full: "100%",
+      },
     },
   },
   variants: {
