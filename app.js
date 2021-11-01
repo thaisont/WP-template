@@ -1,22 +1,20 @@
 const burger = document.querySelector(".burger");
-const cross = document.querySelector(".cross");
 const mobileMenu = document.querySelector(".mobileMenu");
+const content = document.querySelectorAll(".content");
+const accordion = document.querySelectorAll(".accordion");
 
-const plus = document.getElementById("plus");
-const content = document.querySelector(".content");
-const accordion = document.querySelector(".accordion");
-
-//toggle nav
+//Toggle nav
 
 burger.addEventListener("click", () => {
   mobileMenu.classList.toggle("hidden");
 });
 
-accordion.addEventListener("click", () => {
-  content.classList.toggle("hidden");
-  console.log("TEST");
-});
+//Toggle accordion
 
-plus.addEventListener("click", () => {
-  content.classList.toggle("hidden");
-});
+for (i = 0; i < accordion.length; i++) {
+  accordion[i].addEventListener("click", function () {
+    let content = this.nextElementSibling;
+    content.classList.toggle("hidden");
+    console.log("test");
+  });
+}
