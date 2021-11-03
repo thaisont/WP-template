@@ -14,7 +14,7 @@ const accordion = document.querySelectorAll(".accordion");
 
 for (i = 0; i < accordion.length; i++) {
   accordion[i].addEventListener("click", function () {
-    let content = this.nextElementSibling;
+    const content = this.nextElementSibling;
     content.classList.toggle("hidden");
   });
 }
